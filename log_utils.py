@@ -1,5 +1,8 @@
 import logging
 
+'''
+Engine Log class
+'''
 class EngineLog():
     def __init__(self, name) -> None:
         self.__logger:logging.Logger = None
