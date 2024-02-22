@@ -15,3 +15,6 @@ class EngineLog():
 
     def print_on_console(self, message):
         print(message)
+
+    def print_error_log(self, message):
+        self.get_logger().error(message)
