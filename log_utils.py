@@ -18,3 +18,6 @@ class EngineLog():
 
     def print_error_log(self, message):
         self.get_logger().error(message)
+
+    def print_hello_world(self):
+        self.get_logger().info("hello world")
